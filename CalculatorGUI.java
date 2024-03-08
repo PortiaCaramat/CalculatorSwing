@@ -19,7 +19,6 @@ public class CalculatorGUI extends JFrame {
         Color foregroundColor = new Color(30, 144, 255); // Dark blue foreground
         Color buttonColor = new Color(135, 206, 250); // Button color
 
-        // Set look and feel to Nimbus for modern UI
         try {
             UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
         } catch (Exception e) {
@@ -31,7 +30,7 @@ public class CalculatorGUI extends JFrame {
         gbc.insets = new Insets(5, 5, 5, 5);
         gbc.anchor = GridBagConstraints.WEST;
 
-        // Set background color
+        // BG color
         panel.setBackground(backgroundColor);
 
         // Name
